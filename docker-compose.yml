@@ -4,7 +4,7 @@ services:
   nginx:
     depends_on:
       - web
-    image: 'nginx:latest'
+    image: 'nginx:20190807'
     ports: 
       - ${NGINX_PORT:-8080}:80
     volumes:
